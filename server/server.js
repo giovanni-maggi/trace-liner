@@ -277,7 +277,6 @@ app.post('/api/salesforce-login-and-upsert', authenticateToken, async (req, res)
   }
 });
 
-
 // Use Helmet to set various security headers
 app.use(helmet());
 
